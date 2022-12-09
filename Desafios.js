@@ -50,7 +50,25 @@ console.log(myArrowFunction1())
 
 
 // Desafio 5
-function data {
+function callback_teste(){
+const data = new Date
+//h=data.getHours
+//m =data.getMinutes
+//s =data.getSeconds
+//ml= data.getMilliseconds
+ console.log("Hora"  + ": " + data.getHours() + " : " + data.getMinutes() + " : " + data.getSeconds() )
+} 
+//setTimeout (()=>console.log(callback_teste),5000)
+ setTimeout (callback_teste,5000)
+//setTimeout (callback_teste,5000)
+
+ setInterval(callback_teste,5000)
+
+//setInterval(callback_teste,5000)
+
+//setInterval(callback_teste,5000)
+
+//set timeout espera o tempo para começar a funçao a set interval executa a função a cada intervalo de tempo
     
 }
 // Desafio 6
